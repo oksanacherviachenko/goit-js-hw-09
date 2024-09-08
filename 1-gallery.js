@@ -4,5 +4,5 @@ import"./assets/styles-B4s-4mBC.js";import{S as o}from"./assets/vendor-CgTBfC_f.
         <img class="gallery-image" src="${p}" alt="${i}" />
       </a>
     </li>
-  `).join("");e.innerHTML=n;new o(".some-element a",{captionsData:"alt",captionDelay:250});console.log(o);
+  `).join("");e.innerHTML=n;new o(".gallery a",{captionsData:"alt",captionDelay:250});console.log(o);
 //# sourceMappingURL=1-gallery.js.map
