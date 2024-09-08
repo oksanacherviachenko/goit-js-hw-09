@@ -27,3 +27,51 @@ form.addEventListener('submit', event => {
   form.reset();
   formData = { email: '', message: '' };
 });
+
+const styles = `
+  .feedback-form {
+    max-width: 408px;
+    margin: 24px auto;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 8px;
+    
+  }
+
+  .feedback-form label {
+    display: block;
+    margin-bottom: 8px;
+font-size: 16px;
+    font-weight: bold;
+  }
+
+  .feedback-form input, .feedback-form textarea {
+    width: 360px;
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+
+  .feedback-form button {
+    width: 95px;
+    padding: 10px;
+    background-color: #4e75ff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .feedback-form button:hover {
+    background-color: #6c8cff;
+  }
+`;
+
+const styleSheet = document.createElement("style");
+styleSheet.type = "text/css";
+styleSheet.innerText = styles;
+document.head.appendChild(styleSheet);
